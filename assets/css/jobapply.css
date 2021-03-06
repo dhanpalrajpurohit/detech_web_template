@@ -1,0 +1,183 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+li,a{
+    font-weight: 500;
+    font-size:25px;
+    color:#ffffff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: dimgrey;   
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.navlink{
+    list-style: none;
+    padding: 0px;
+    margin: 1%;
+    display: inline-block;
+}
+
+.navlink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlink li a{
+    height: 100%;
+    transition: all 0.3 ease 0s;
+}
+
+.navlink li a:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+.contactus_image_banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688),url(../images/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.heading_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color:whitesmoke;
+    padding-top: 10%;
+}
+/* overview_section */
+.overview_section{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+.overview_section h1{
+    margin: 0;
+    padding:2%;
+    height:100%;
+    text-align: center;
+    background-color: aliceblue;
+    font-weight: bold;
+    
+}
+.form_element{
+    display: block;
+    font-size:20px;
+    padding:4px 2px;
+    width: 98%;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin:2px 0 0 10px;
+    font-weight: bold;
+
+}
+
+.form_header{
+    text-align: center;
+    font-size:120%;
+    font-weight: bold;
+}
+.form_element input{
+    width: 80%;
+    margin:1%;
+    border-radius: 30px;
+    padding: 0 10px 10px 0;
+    text-align: center;
+    border-color:aliceblue;
+}
+.form_element input[type=submit]{
+    width: 30%;
+    padding:5px 15px 5px;
+    text-align: center;
+    background-color: rgb(93, 195, 204);
+}
+.form_element input[placeholder]{
+    padding:5px 15px 5px;
+    text-align: left;
+
+}
+.form_element label{
+    color:red;
+}
+input[type="file"] {
+    display: none;
+    color:black;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color:black;
+}
+#uploadFile{
+    color:black;
+}
+/* footer style */
+footer{
+    padding-top:1%;
+    background-color: #395754;
+    margin:0px;
+    padding-bottom: 0;
+    font-size:30px;
+    color:white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .column{
+    
+    display: inline-block;
+}
+
+footer li{
+    list-style: none;
+}
+footer a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+footer .services_class{
+    text-align: right;
+}
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+    background: #444444;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+} */

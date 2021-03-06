@@ -1,0 +1,193 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+li,a{
+    font-weight: 500;
+    font-size:25px;
+    color:#ffffff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: dimgrey;   
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.navlink{
+    list-style: none;
+    padding: 0px;
+    margin: 1%;
+    display: inline-block;
+}
+
+.navlink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlink li a{
+    height: 100%;
+    transition: all 0.3 ease 0s;
+}
+
+.navlink li a:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* overview_section */
+.overview_section{
+    /* margin: 0;
+    padding: 0; */
+    margin-left: 20%;
+    margin-right: 20%;
+    height:500px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-image: url(../images/carrerpage_banner.svg);
+    overflow: hidden;
+}
+
+.content_section{
+    margin-top:-5%;
+    /* padding-top:1%; */
+    padding-bottom: 1%;
+}
+.webdevelopment_section{
+    font-size:25px;
+    padding:2%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.webdevelopment_section img{
+    height:200px;
+    width : 200px;
+    float: left;
+}
+.mobiledevelopment_section{
+    font-size:25px;
+    padding:2%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.mobiledevelopment_section img{
+    height:200px;
+    width : 200px;
+    float: right;
+}
+
+.machinelearning_section{
+    font-size:25px;
+    padding:2%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.machinelearning_section img{
+    height:200px;
+    width : 200px;
+    float: left;
+}
+
+.wordpress_section{
+    font-size:25px;
+    padding:2%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.wordpress_section img{
+    height:200px;
+    width : 200px;
+    float: right;
+}
+
+.game_development_section{
+    font-size:25px;
+    padding:2%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.game_development_section img{
+    height:200px;
+    width : 200px;
+    float: left;
+}
+.card-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+/* footer style */
+footer{
+    padding-top:1%;
+    background-color: #395754;
+    margin:0px;
+    padding-bottom: 0;
+    font-size:30px;
+    color:white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .column{
+    
+    display: inline-block;
+}
+footer a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+}
+
+footer .services_class{
+    text-align: right;
+}
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+    background: #444444;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+} */

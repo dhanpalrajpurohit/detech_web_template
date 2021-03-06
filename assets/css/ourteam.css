@@ -1,0 +1,181 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 188, 188);
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+li,a{
+    font-weight: 500;
+    font-size:25px;
+    color:#ffffff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: dimgrey;   
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.navlink{
+    list-style: none;
+    padding: 0px;
+    margin: 1%;
+    display: inline-block;
+}
+
+.navlink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlink li a{
+    height: 100%;
+    transition: all 0.3 ease 0s;
+}
+
+.navlink li a:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+/* Image banner aboutus paage */
+.aboutus_image_banner{
+    /* background:linear-gradient(rgba(0,0,0,0.5),#009688),url(../images/about-us-banner.png); */
+    background-image: url(../images/team_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 2%;
+    padding: 10%;
+}
+.heading_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 100px;
+    color:rgb(0, 0, 0);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #1ecab9;
+    color:white;
+}
+/* overview_section */
+.overview_section{
+    margin: 2%;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    height:400px;
+    display: inline-block;
+    width:96%;
+    height:min-content;
+    text-align: center;
+}
+/*Card Team Member*/
+.card{
+    width: min-content;
+    height: min-content;
+    /* background-color: rgb(209, 205, 205); */
+    background-color:white;
+    border-radius: 30px;
+    margin: 1%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+.card-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    transform: scale(1.2); 
+  }
+.card img{
+    height:300px;
+    width:300px;  
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    font-size : 20px;
+    text-align: center;
+    font-weight:bold;
+}
+p{
+    font-size:25px;
+    font-family: monospace;
+}
+.overview_section .column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%; 
+    color:#1ecab9;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top:5%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* footer style */
+footer{
+    padding-top:1%;
+    background-color: #395754;
+    margin:0px;
+    padding-bottom: 0;
+    font-size:30px;
+    color:white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .column{
+    display: inline-block;
+}
+footer a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+}
+
+footer .services_class{
+    text-align: left;
+}
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+    background: #444444;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+} */

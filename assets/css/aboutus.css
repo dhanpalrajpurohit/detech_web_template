@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+li,a{
+    font-weight: 500;
+    font-size:25px;
+    color:#ffffff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: dimgrey;   
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.navlink{
+    list-style: none;
+    padding: 0px;
+    margin: 1%;
+    display: inline-block;
+}
+
+.navlink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlink li a{
+    height: 100%;
+    transition: all 0.3 ease 0s;
+}
+
+.navlink li a:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+/* Image banner aboutus paage */
+.aboutus_image_banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688),url(../images/about-us-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 2%;
+}
+.heading_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color:whitesmoke;
+    padding-top: 10%;
+}
+
+/* overview_section */
+.overview_section{
+    margin: 0;
+    padding: 0;
+    height:400px;
+}
+p{
+    font-size:25px;
+    font-family: monospace;
+}
+.overview_section .column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%; 
+    color:#1ecab9;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top:5%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* footer style */
+footer{
+    padding-top:1%;
+    background-color: #395754;
+    margin:0px;
+    padding-bottom: 0;
+    font-size:30px;
+    color:white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .column{
+    display: inline-block;
+}
+
+footer li{
+    list-style: none;
+}
+footer a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+footer .services_class{
+    text-align: left;
+}
+
+/*footer {
+    position: absolute;
+    bottom: 0;
+    background: #444444;
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+} */
